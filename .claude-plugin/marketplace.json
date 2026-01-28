@@ -1,0 +1,20 @@
+{
+  "name": "n33kos",
+  "owner": {
+    "name": "n33kos"
+  },
+  "metadata": {
+    "description": "n33kos Claude plugins and tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "clicky-keys",
+      "description": "Audio feedback for Claude Code - hear keyboard typing sounds while Claude is working",
+      "source": {
+        "source": "github",
+        "repo": "n33kos/claude-clicky-keys"
+      }
+    }
+  ]
+}
