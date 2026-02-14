@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "n33kos Claude plugins and tools",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -14,6 +14,14 @@
       "source": {
         "source": "github",
         "repo": "n33kos/claude-clicky-keys"
+      }
+    },
+    {
+      "name": "voice-multiplexer",
+      "description": "Remote voice interaction with multiple Claude Code sessions. Talk to your running Claude sessions from anywhere — switch between them and control them by voice.",
+      "source": {
+        "source": "github",
+        "repo": "n33kos/claude-voice-multiplexer"
       }
     }
   ]
