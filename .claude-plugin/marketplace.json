@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "n33kos Claude plugins and tools",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "plugins": [
     {
@@ -22,6 +22,22 @@
       "source": {
         "source": "github",
         "repo": "n33kos/claude-voice-multiplexer"
+      }
+    },
+    {
+      "name": "imprint",
+      "description": "Train a behavioral profile from your Claude session history. Learns your work style, communication preferences, and quality expectations — then injects them into every session.",
+      "source": {
+        "source": "github",
+        "repo": "n33kos/imprint"
+      }
+    },
+    {
+      "name": "orchestrator",
+      "description": "Multi-session orchestration daemon for Claude Code. Manages work streams, delegates tasks, and coordinates parallel Claude sessions.",
+      "source": {
+        "source": "github",
+        "repo": "n33kos/orchestrator"
       }
     }
   ]
