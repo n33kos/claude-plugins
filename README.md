@@ -14,28 +14,9 @@ To add this marketplace to your Claude Code installation:
 
 ## Available Plugins
 
-### clicky-keys
-
-Audio feedback for Claude Code - hear keyboard typing sounds while Claude is working.
-
-**Commands**:
-
-- `/setup` - Configure clicky-keys audio settings (volume, speed, triggers)
-- `/test` - Test the clicky-keys sound for a few seconds
-- `/mute` - Toggle clicky-keys sounds on/off
-
-**Source**: External repository ([n33kos/claude-clicky-keys](https://github.com/n33kos/claude-clicky-keys))
-
-### voice-multiplexer
-
-Remote voice interaction with multiple Claude Code sessions. Talk to your running Claude sessions from anywhere — switch between them and control them by voice.
-
-**Commands**:
-
-- `/auth-code` - Generate an authentication code to link a new device to your voice-multiplexer instance
-- `standby` - Put the current Claude session in standby mode, connecting it to the multiplexer for remote voice interaction
-- `/service-status` - Check the status of the voice-multiplexer services
-- `/start-services` - Start the voice-multiplexer services (if not already running)
-- `/stop-services` - Stop the voice-multiplexer services
-
-**Source**: External repository ([n33kos/claude-voice-multiplexer](https://github.com/n33kos/claude-voice-multiplexer))
+| Plugin | Description | Repo |
+|--------|-------------|------|
+| **clicky-keys** | Audio feedback for Claude Code — hear keyboard typing sounds while Claude is working | [n33kos/claude-clicky-keys](https://github.com/n33kos/claude-clicky-keys) |
+| **voice-multiplexer** | Remote voice interaction with multiple Claude Code sessions. Talk to your running sessions from anywhere. | [n33kos/claude-voice-multiplexer](https://github.com/n33kos/claude-voice-multiplexer) |
+| **imprint** | Train a behavioral profile from your session history. Learns your work style and injects it into every session. | [n33kos/imprint](https://github.com/n33kos/imprint) |
+| **orchestrator** | Multi-session orchestration daemon. Manages work streams, delegates tasks, and coordinates parallel Claude sessions. | [n33kos/orchestrator](https://github.com/n33kos/orchestrator) |
