@@ -31,14 +31,6 @@
         "source": "github",
         "repo": "n33kos/imprint"
       }
-    },
-    {
-      "name": "orchestrator",
-      "description": "Multi-session orchestration daemon for Claude Code. Manages work streams, delegates tasks, and coordinates parallel Claude sessions.",
-      "source": {
-        "source": "github",
-        "repo": "n33kos/orchestrator"
-      }
     }
   ]
 }

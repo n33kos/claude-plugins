@@ -19,4 +19,3 @@ To add this marketplace to your Claude Code installation:
 | **clicky-keys** | Audio feedback for Claude Code — hear keyboard typing sounds while Claude is working | [n33kos/claude-clicky-keys](https://github.com/n33kos/claude-clicky-keys) |
 | **voice-multiplexer** | Remote voice interaction with multiple Claude Code sessions. Talk to your running sessions from anywhere. | [n33kos/claude-voice-multiplexer](https://github.com/n33kos/claude-voice-multiplexer) |
 | **imprint** | Train a behavioral profile from your session history. Learns your work style and injects it into every session. | [n33kos/imprint](https://github.com/n33kos/imprint) |
-| **orchestrator** | Multi-session orchestration daemon. Manages work streams, delegates tasks, and coordinates parallel Claude sessions. | [n33kos/orchestrator](https://github.com/n33kos/orchestrator) |
